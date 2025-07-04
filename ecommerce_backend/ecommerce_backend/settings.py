@@ -149,13 +149,3 @@ AUTH_USER_MODEL = 'users.User'
 
 # settings.py
 
-EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST = "smtp.gmail.com"          # For Gmail SMTP server
-EMAIL_PORT = 587                       # TLS port
-EMAIL_USE_TLS = True                   # Use TLS encryption
-EMAIL_HOST_USER = "awaisamjad.official@gmail.com"         # Your full Gmail address  # Your Gmail app password (NOT your normal Gmail password)
-EMAIL_HOST_PASSWORD = "zgxnvdzdvoakwwyd"
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER  # Default from email address
-# settings.py
-USE_TZ = True
-TIME_ZONE = 'UTC'   # or your preferred timezone
